@@ -7,7 +7,7 @@ const { PORT } = process.env
 const server = http.createServer((req, res) => {
     res.writeHead(200, { 'Content-Type': 'text/plain' })
     res.write(`Welcome to the Method-Checker API`)
-    res.write(`\nYou used ${req.method} to access this route`)
+    res.write(`\nYou used the ${req.method} method to access this route`)
     res.write('\nThank you')
     return res.end()
 })
