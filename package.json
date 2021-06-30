@@ -4,7 +4,8 @@
   "description": "This api checks the method that was used to make a request",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node index.js"
   },
   "author": "Febe",
   "license": "ISC",

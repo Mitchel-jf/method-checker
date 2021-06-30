@@ -12,5 +12,6 @@ const server = http.createServer((req, res) => {
     return res.end()
 })
 
+// listens for serves the application
 server.listen(PORT, () =>
     console.log(`Method-Checker started successfully on ${PORT}`))
